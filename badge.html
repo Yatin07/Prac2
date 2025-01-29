@@ -1,0 +1,151 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Badges
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Inter', sans-serif;
+        }
+        .badge-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+        }
+        .badge-card img {
+            transition: transform 0.3s ease;
+        }
+        .badge-card:hover img {
+            transform: scale(1.05);
+        }
+        .badge-card h2 {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .badge-card p {
+            color: #4a5568;
+        }
+        .header-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .progress-bar {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+        .badge-card.bronze {
+            border: 2px solid #cd7f32;
+        }
+        .badge-card.silver {
+            border: 2px solid #c0c0c0;
+        }
+        .badge-card.gold {
+            border: 2px solid #ffd700;
+        }
+        .badge-card .badge-icon {
+            filter: drop-shadow(2px 4px 6px black);
+        }
+  </style>
+ </head>
+ <body class="bg-gradient-to-r from-green-100 to-blue-100">
+  <header class="bg-white shadow-md">
+   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="flex items-center">
+     <i class="fas fa-leaf text-2xl text-green-500">
+     </i>
+     <span class="ml-2 text-xl font-bold header-gradient">
+      Inner Peace
+     </span>
+    </div>
+    <nav class="flex space-x-6">
+     <a class="text-gray-700 hover:text-gray-900" href="index.html">
+      Home
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      Explore
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      Community
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      Profile
+     </a>
+     <i class="fas fa-bell text-gray-700 hover:text-gray-900">
+     </i>
+     <img alt="User profile picture" class="w-10 h-10 rounded-full" src="https://placehold.co/40x40"/>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto px-4 py-8">
+   <h1 class="text-4xl font-bold mb-2 text-center header-gradient">
+    Badges
+   </h1>
+   <p class="text-gray-700 mb-8 text-center">
+    Earned by completing certain streak milestones
+   </p>
+   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div class="bg-white p-4 rounded-lg shadow-lg badge-card bronze transition-transform duration-300">
+     <img alt="First 5-day streak badge" class="w-full h-40 object-cover rounded-lg mb-4 badge-icon" src="https://placehold.co/150x150"/>
+     <h2 class="text-lg font-bold">
+      First 5-day streak
+     </h2>
+     <p class="text-gray-600">
+      You've achieved the 5-day streak badge for consistent meditation.
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-lg badge-card silver transition-transform duration-300">
+     <img alt="First 10-day streak badge" class="w-full h-40 object-cover rounded-lg mb-4 badge-icon" src="https://placehold.co/150x150"/>
+     <h2 class="text-lg font-bold">
+      First 10-day streak
+     </h2>
+     <p class="text-gray-600">
+      You've achieved the 10-day streak badge for consistent meditation.
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-lg badge-card transition-transform duration-300">
+     <img alt="First 20-day streak badge" class="w-full h-40 object-cover rounded-lg mb-4 badge-icon" src="https://placehold.co/150x150"/>
+     <h2 class="text-lg font-bold">
+      First 20-day streak
+     </h2>
+     <p class="text-gray-600">
+      You've achieved the 20-day streak badge for consistent meditation.
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-lg badge-card gold transition-transform duration-300">
+     <img alt="First 30-day streak badge" class="w-full h-40 object-cover rounded-lg mb-4 badge-icon" src="https://placehold.co/150x150"/>
+     <h2 class="text-lg font-bold">
+      First 30-day streak
+     </h2>
+     <p class="text-gray-600">
+      You've achieved the 30-day streak badge for consistent meditation.
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-lg badge-card transition-transform duration-300">
+     <img alt="First 60-day streak badge" class="w-full h-40 object-cover rounded-lg mb-4 badge-icon" src="https://placehold.co/150x150"/>
+     <h2 class="text-lg font-bold">
+      First 60-day streak
+     </h2>
+     <p class="text-gray-600">
+      You've achieved the 60-day streak badge for consistent meditation.
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded-lg shadow-lg badge-card transition-transform duration-300">
+     <img alt="First 90-day streak badge" class="w-full h-40 object-cover rounded-lg mb-4 badge-icon" src="https://placehold.co/150x150"/>
+     <h2 class="text-lg font-bold">
+      First 90-day streak
+     </h2>
+     <p class="text-gray-600">
+      You've achieved the 90-day streak badge for consistent meditation.
+     </p>
+    </div>
+   </div>
+  </main>
+ </body>
+</html>
